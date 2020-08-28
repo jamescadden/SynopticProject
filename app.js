@@ -1,7 +1,7 @@
 const express = require ('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
-const employeesSchema = require('../schema/employeesSchema')
+const employeesSchema = require('./schema/employeesSchema')
 
 
 const app = express()
